@@ -20,7 +20,7 @@ class GPSReader:
                 logger.exception(f"Error opening the serial port: {e}")
 
     def read(self):
-        # Open serial port initially
+        # Open serial port
         self.open_serial()
 
         while True:
